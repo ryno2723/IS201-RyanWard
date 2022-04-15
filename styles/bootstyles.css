@@ -1,3 +1,4 @@
+/* Ryan Ward 4/15/2022 */
 ul {
     list-style-type: none;
     margin: 0;
@@ -7,12 +8,13 @@ ul {
   }
   
   li {
-    float: left;
+    float: right;
   }
   
   li a {
     display: block;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -21,3 +23,55 @@ ul {
   li a:hover {
     background-color: #111;
   }
+
+
+
+.mainbody { 
+  top:114px;
+  bottom:100px;
+  right:114px;
+  left:114px;
+  padding-right:5px;
+  padding-left:5px;
+  padding-bottom:25px;
+  resize: both;
+  overflow:auto;
+  background-color:rgb(183, 232, 255);
+}
+
+div{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-align:center;
+}
+
+.myheader{
+  padding-top:5px;
+  padding-left:5px;
+  padding-right:5px;
+  font-size: 25px;
+}
+
+p {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:35px;
+  background-color:#333;
+  color:whitesmoke;
+  text-align:center;
+
+}
+
+.footer {
+  bottom: 5px;
+  height: 75px;
+  left: 5px;
+  right: 5px;
+  margin-left:5px;
+  margin-right:5px;
+  font-size: 14px;
+  color: #999999;
+  background-color:#333;
+  text-align: center;
+  position: fixed;
+  
+}
